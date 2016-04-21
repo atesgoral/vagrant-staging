@@ -32,8 +32,17 @@ All the shell script does is to determine the host port number that is mapped to
 
 Edit the hostname if you like.
 
-## Connect to the box
+## Use it
+
+Connect to the box via `ssh`:
 
 ```sh
 ssh staging
+```
+
+Use it as a host in your Ansible playbook:
+
+```
+[database]
+staging
 ```
