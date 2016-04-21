@@ -5,6 +5,8 @@ A bare [Vagrant](https://www.vagrantup.com/) box + shell script for testing depl
 Vagrant lets you connect to a running box simply with `vagrant ssh`, but if you want to SSH into the box by other means, you need to use Vagrant's key file.
 Example scenario: Testing an [Ansible](https://www.ansible.com/) deployment with your Vagrant box without using the [ansible_local  provisioner](https://www.vagrantup.com/docs/provisioning/ansible_local.html).
 
+Similar work: [vagrant-ssh-config-generator](https://github.com/nisaacson/vagrant-ssh-config-generator)
+
 ## Bring the box up
 
 ```sh
