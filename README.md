@@ -28,6 +28,8 @@ Host staging
      IdentitiesOnly yes
 ```
 
+All the shell script does is to determine the host port number that is mapped to the SSH port (22) on the guest, and to determine the absolute path to the private key.
+
 Edit the hostname if you like.
 
 ## Connect to the box
